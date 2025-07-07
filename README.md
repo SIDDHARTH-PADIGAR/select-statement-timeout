@@ -1,6 +1,6 @@
 ##  Use Case: Timeout While Waiting for a Channel
 
-Imagine you're making a request to a microservice, doing a DB read, or waiting on some goroutine to send you data — but you don’t want to wait forever. If it doesn’t respond in 2 seconds, you move on.
+Imagine you're making a request to a microservice, doing a DB read, or waiting on some goroutine to send you data, but you don’t want to wait forever. If it doesn’t respond in 2 seconds, you move on.
 
 ---
 
